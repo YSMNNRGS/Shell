@@ -12,7 +12,7 @@ int main() {
     char *args[MAX_ARGS];
 
     while (1) {
-        printf("myshell> ");
+        printf("FalconShell> ");
 
         if (fgets(input, MAX_INPUT, stdin) == NULL) {
             break;
